@@ -3,7 +3,7 @@ from ..tiremodelbase import TireModelBase
 from ..solvermode import SolverMode
 import math
 import numpy as np
-from opentire.TireModel.PAC2002.PAC2002_Core import PAC2002_Core
+from .PAC2002_Core import *
 
 class PAC2002(TireModelBase):
 
